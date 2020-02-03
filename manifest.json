@@ -2,5 +2,12 @@
     "name": "nFausto",
     "version": "1.0",
     "description": "OLOCO MEU!",
-    "manifest_version": 2
+    "manifest_version": 2,
+    "background": {
+        "scripts": ["nFausto.js"]
+     },
+    "content_scripts": [{
+        "js": ["nFausto.js"],
+        "matches": ["<all_urls>"]
+      }]
   }
