@@ -1,7 +1,7 @@
 {
     "name": "nFausto",
     "version": "1.0",
-    "description": "OLOCO MEU!",
+    "description": "Substitui todas as imagens por fotos do Faustão",
     "manifest_version": 2,
     "background": {
         "scripts": ["nFausto.js"]
