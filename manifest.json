@@ -3,9 +3,6 @@
     "version": "1.0",
     "description": "Substitui todas as imagens por fotos do Faustão",
     "manifest_version": 2,
-    "background": {
-        "scripts": ["nFausto.js"]
-     },
     "content_scripts": [{
         "js": ["nFausto.js"],
         "matches": ["<all_urls>"]
